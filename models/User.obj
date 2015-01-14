@@ -1,0 +1,6 @@
+// For adding properties in User model defined in 'core' package
+Model core.User {
+	properties: [
+
+	]
+}

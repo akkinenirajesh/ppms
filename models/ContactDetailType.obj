@@ -1,0 +1,24 @@
+Model ContactDetailType {
+	name : 'Contact Detail Type'
+	parents : [#Picklist]
+}
+
+ContactDetailType PhoneNumber {
+	name : 'Phone Number'
+}
+
+ContactDetailType Email {
+	name : 'Email'
+}
+
+ContactDetailType WebLink {
+	name : 'Web Site'
+}
+
+ContactDetailType Skype {
+	name : 'Skype'
+}
+
+ContactDetailType Other {
+	name : 'Other'
+}

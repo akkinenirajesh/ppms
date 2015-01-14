@@ -1,0 +1,14 @@
+// Represents a party member
+Model Member {
+	name : 'Member'
+	properties : [
+		user {
+
+		},
+		membershipType {
+			type : #Reference
+			referenceType : #MembershipType
+			required : true
+		}
+	]
+}

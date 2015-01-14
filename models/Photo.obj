@@ -1,0 +1,18 @@
+Model Photo {
+	name : 'Photo'
+	properties : [
+		attachment {
+			type : #Attachment
+			required : true
+		},
+		caption {
+			type : #Text			
+		},
+		details {
+			type : #TextArea
+		},
+		time {
+			type : #DateTime
+		}
+	]
+}

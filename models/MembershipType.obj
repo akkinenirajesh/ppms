@@ -1,0 +1,4 @@
+Model MembershipType {
+	name : 'MembershipType'
+	parents : [#Picklist]
+}

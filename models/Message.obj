@@ -1,0 +1,21 @@
+//Used to represent message sent by one member to another member
+
+Model Message {
+	name : 'Private Message'
+	properties : [
+		private {
+			name : 'Is Private'
+			type : #Boolean
+		}
+		from {
+			name : 'From'
+			type : #Reference
+			referenceType : #Member
+		}
+		to {
+			name : 'To'
+			type : #Reference
+			referenceType : #Member
+		}
+	]
+}

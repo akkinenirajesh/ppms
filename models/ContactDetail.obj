@@ -1,0 +1,19 @@
+Model ContactDetail {
+	name : 'Contact Detail'
+	properties : [
+		type {
+			name : 'Type'
+			type : #Text
+			required : true			
+		}
+		value {
+			name : 'value'
+			type : #Text
+			required : true
+		}
+		showTo {
+			name : 'Show To'
+			type : #Reference
+		}
+	]
+}

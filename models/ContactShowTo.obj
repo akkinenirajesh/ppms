@@ -1,0 +1,16 @@
+Model ContactShowTo {
+	name : 'Contact Show To'
+	parents : [#Picklist]	
+}
+
+ContactShowTo All {
+	name : 'All'
+}
+
+ContactShowTo Managers {
+	name : 'Managers'
+}
+
+ContactShowTo None {
+	name : 'None'
+}
