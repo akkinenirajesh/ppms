@@ -9,5 +9,5 @@ All these in web and mobile too..
 8. If I want to send a mail to the president and request a reply, I need to know who else is going to see my mail, and how many such mails are pending with them as of now. What decision they have taken and why.  
 9. What are the other decisions pending by each and every member and for how long. Some times the reason for any decision can be made private and that can be contested upon all with in the system.
 10. See members nearby in mobile or web and send message. See members in realtime online if they choose to do so..
-11. Create events, activities, invite members, track activity, apply for permissions, request for funds, record expenses, update activity status, archive activities.
+11. Create events, activities, invite members, track Event, apply for permissions, request for funds, record expenses, update Event status, archive activities.
 12. Post videos or photos of events and submit them to social networks after approval from communications panel. 

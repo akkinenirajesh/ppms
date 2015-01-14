@@ -1,8 +1,8 @@
 
 // used to define roles of users participating in the event
 // this can be used by other to decide whom to contact
-Model ActivityRole {
-	name : 'Activity Role'
+Model EventRole {
+	name : 'Event Role'
 	properties : [
 		role {
 			type : #Text
@@ -10,7 +10,7 @@ Model ActivityRole {
 		},
 		reportsTo {
 			type : #Reference
-			referenceType : #ActivityRole
+			referenceType : #EventRole
 		}
 	]
 }

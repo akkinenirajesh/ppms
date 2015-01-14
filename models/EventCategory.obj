@@ -1,12 +1,12 @@
-Model ActivityCategory {
-	name : 'Activity Category'
+Model EventCategory {
+	name : 'Event Category'
 	parents : [#Picklist]
 }
 
-ActivityCategory SocialIssue {
+EventCategory SocialIssue {
 	
 }
 
-ActivityCategory Campaigning {
+EventCategory Campaigning {
 	
 }

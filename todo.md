@@ -1,0 +1,1 @@
+1. Create 3 schedule actions for reminding renewal of membership. Give an option to configure this in UI.

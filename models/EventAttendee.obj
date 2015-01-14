@@ -1,10 +1,10 @@
-Model ActivityAttendee {
-	name : 'Activity Attendee'
+Model EventAttendee {
+	name : 'Event Attendee'
 
 	properties :[
-		activity {
+		Event {
 			type : #Reference
-			referenceTo : #Activity
+			referenceTo : #Event
 		}
 		member {
 			type : #Reference
@@ -18,7 +18,7 @@ Model ActivityAttendee {
 		},
 		role {
 			type : #Reference
-			referenceTo : #ActivityRole
+			referenceTo : #EventRole
 		},
 		invitation {
 			type : #Reference

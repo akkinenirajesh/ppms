@@ -1,13 +1,13 @@
 Model Invitation{
 	name :'Invitation'
 	properties:[
-		activity{
+		Event{
 			type:#Reference
-			referenceTo:#Activity
+			referenceTo:#Event
 		},
 		from{
 			type:#Reference
-			referenceTo:#ActivityAttendee
+			referenceTo:#EventAttendee
 		},
 		toMember{
 			type:#Reference
@@ -28,11 +28,11 @@ Model Invitation{
 		},
 		role{
 			type:#Reference
-			referenceTo:#ActivityRole
+			referenceTo:#EventRole
 		},
 		reportTo{
 			type:#Reference
-			referenceTo:#ActivityAttendee
+			referenceTo:#EventAttendee
 		}
 	]
 }

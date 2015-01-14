@@ -13,6 +13,11 @@ Model Event {
 		agenda {
 			type : #Text
 		},
+		minutes {
+			type : #Reference
+			referenceTo : #EventMinute
+			relationship : #OneManyChildren
+		},
 		category {
 			type : #EventCategory
 		},
@@ -21,11 +26,9 @@ Model Event {
 			referenceTo : #Attendee
 			relation : #OneManyChildren
 		},
-		invitees {
-
-		},
 		manager {
-			
+			type : #Reference
+			referenceTo : #EventAttendee
 		},
 		date {
 
