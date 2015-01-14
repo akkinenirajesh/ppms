@@ -1,0 +1,18 @@
+Model InvitationResponse{
+	name :'InvitationResponse'
+	parents:[#Picklist]
+		
+}
+
+InvitationResponse Yes{
+	name:'Yes'	
+}
+InvitationResponse No{
+	name:'No'	
+}
+InvitationResponse Maybe{
+	name:'Maybe'
+}
+InvitationResponse Cancelled{
+	name:'Cancelled'
+}
