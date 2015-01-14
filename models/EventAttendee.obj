@@ -1,0 +1,34 @@
+Model ActivityAttendee {
+	name : 'Activity Attendee'
+
+	properties :[
+		activity {
+			type : #Reference
+			referenceTo : #Activity
+		}
+		member {
+			type : #Reference
+			referenceTo : #Member
+		},
+		email {
+			type : #Email
+		},
+		phone {
+			type : #Phone
+		},
+		role {
+			type : #Reference
+			referenceTo : #ActivityRole
+		},
+		invitation {
+			type : #Reference
+			referenceTo : #Invitation
+		},
+		checkIn {
+			type : #DateTime
+		},
+		checkOut {
+			type : #DateTime
+		}
+	]
+}

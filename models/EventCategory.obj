@@ -1,0 +1,12 @@
+Model ActivityCategory {
+	name : 'Activity Category'
+	parents : [#Picklist]
+}
+
+ActivityCategory SocialIssue {
+	
+}
+
+ActivityCategory Campaigning {
+	
+}

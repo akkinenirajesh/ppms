@@ -8,10 +8,6 @@ Model ActivityRole {
 			type : #Text
 			required : true
 		},
-		member {
-			type : #Reference
-			referenceType : #Member
-		},
 		reportsTo {
 			type : #Reference
 			referenceType : #ActivityRole

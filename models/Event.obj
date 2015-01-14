@@ -1,0 +1,75 @@
+// defines an Event or event
+Model Event {
+	name : 'Event'
+	properties : [
+		title {
+			type : #Text
+			required : true
+		},
+		description {
+			type : #Text
+			required : true
+		},
+		agenda {
+			type : #Text
+		},
+		category {
+			type : #EventCategory
+		},
+		attendees {
+			type : #Reference
+			referenceTo : #Attendee
+			relation : #OneManyChildren
+		},
+		invitees {
+
+		},
+		manager {
+			
+		},
+		date {
+
+		},
+		location {
+			type : #GeoLocation
+		},
+		venue {
+
+		},
+		project {
+
+		},
+		team {
+			type : #Reference
+			referenceTo : #EventRole
+			relation : #OneToManyChild
+		},
+		roles {
+			type : #Reference
+			referenceTo : #EventRole
+			relation : #OneToManyChild
+		},
+		isPrivate{
+			name : "Is Private"
+			type : #Boolean
+		},
+		invitationDeadline {
+			type : #Date
+		},
+		cancelAfterDeadline {
+			type : #Boolean
+			description : 'Cancel not responded invitations after the deadline'
+		},
+		hashTag {
+			type : #Text
+			description : 'Use this hash tag for social media'
+		},
+		publicUrl {
+			type : #Text
+			descriptin : 'This will be system generated'
+		},
+		invitationRestrictions {
+			description : 'Who can invite to whom.'
+		}
+	]
+}

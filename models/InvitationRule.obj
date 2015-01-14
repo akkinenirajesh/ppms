@@ -1,0 +1,14 @@
+Model InvitationRule {
+	
+	properties : [
+		inviteeRole {
+			type: #Reference
+			referenceTo : #ActivityRole
+		},
+		invitorRole {
+			description : 'This is the minimum role required for inviting to the above inviteeRole'
+			type: #Reference
+			referenceTo : #ActivityRole
+		}
+	]
+}
