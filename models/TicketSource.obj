@@ -1,0 +1,25 @@
+Model TicketSource{
+	name:'Ticket Source'
+	parents:[#Picklist]
+	
+}
+
+TicketSource System{
+	name:'System'
+}
+
+TicketSource Email{
+	name:'Email'
+}
+
+TicketSource SMS{
+	name:'SMS'
+}
+
+TicketSource Facebook{
+	name:'Facebbok'
+}
+
+TicketSource Twitter{
+	name:'Twitter'
+}

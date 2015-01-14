@@ -1,0 +1,4 @@
+Model TicketStatus{
+	name:'Ticket Status'
+	parents:[#Picklist]
+}

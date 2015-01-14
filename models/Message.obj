@@ -1,4 +1,4 @@
-//Used to represent message sent by one member to another member
+//Used to represent message sent by one User to another User
 
 Model Message {
 	name : 'Private Message'
@@ -10,12 +10,12 @@ Model Message {
 		from {
 			name : 'From'
 			type : #Reference
-			referenceType : #Member
+			referenceType : #User
 		}
 		to {
 			name : 'To'
 			type : #Reference
-			referenceType : #Member
+			referenceType : #User
 		}
 	]
 }

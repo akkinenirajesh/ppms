@@ -1,0 +1,19 @@
+Model TicketMessage{
+	name : 'Ticket Message'
+	properties :[
+		ticket{
+			type:#Reference
+			referenceTo:#Ticket
+		},
+		subject{
+			type:#Text
+		},
+		body{
+			type:#Text
+		},
+		messageType{
+			type:#Reference
+			referenceTo:#MessageType
+		}
+	]
+}

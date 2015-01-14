@@ -1,0 +1,14 @@
+Model EventMinute{
+	name:'Event Minute'
+	properties:[
+		text{
+			type:#Text
+		},
+		photos{
+			type:#Reference
+			referenceTo:#Photo
+		},
+		video{
+			type:#Attachment
+		}
+}

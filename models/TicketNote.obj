@@ -1,0 +1,16 @@
+Model TicketNote{
+	name :'TicketNote'
+	properties : [
+		ticket{
+			name : 'Ticket'
+			type:#Reference
+			referenceTo:#Ticket
+			required : true
+		},
+		note {
+			name : 'Note'
+			type : #Text
+			required : true 
+	    }
+	] 
+}

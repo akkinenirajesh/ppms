@@ -1,0 +1,18 @@
+Model TicketAttachment{
+	name:'Ticket Attachment'
+	properties:[
+		ticket{
+			type:#Reference
+			referenceTo:#Ticket
+		},
+		name{
+			type:#Text
+		},
+		description{
+			type:#Text
+		},
+		attachment{
+			type:#Attachment
+		}
+	]
+}

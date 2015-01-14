@@ -6,9 +6,9 @@ Model EventAttendee {
 			type : #Reference
 			referenceTo : #Event
 		}
-		member {
+		user {
 			type : #Reference
-			referenceTo : #Member
+			referenceTo : #User
 		},
 		email {
 			type : #Email

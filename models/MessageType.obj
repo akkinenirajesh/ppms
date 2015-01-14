@@ -1,0 +1,4 @@
+Model MessageType{
+	name:'Message Type'
+	parents:[#Picklist]
+}

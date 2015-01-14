@@ -1,0 +1,39 @@
+Model TicketHistory{
+	name : 'Ticket History'
+	properties:[
+		Property assignedTo {
+			name : 'Assigned To'
+			type : #Reference
+			referenceTo : #user
+			relation : #ManyOneReference
+			deleteConstraint : #SetNull
+	    },
+	    Property status {
+			name : 'Status'
+			type : #Reference
+			referenceTo : #TicketStatus
+			relation : #ManyOneReference
+			deleteConstraint : #Restrict
+	    },
+	    Property startTime {
+			name : 'Start Time'
+			type : #DateTime
+	    },
+	    Property endTime {
+			name : 'End Time'
+			type : #DateTime
+	    },
+	    Property durationTime {
+			name : 'Duration Time'
+			type : #Age
+			computation : {! endTime - startTime }
+	    },
+	    Property ticket {
+			name : 'Ticket'
+			type : #Reference
+			referenceTo : #Ticket
+			relation : #ManyOneReference
+			deleteConstraint : #DeleteThis
+	    }
+	]
+}

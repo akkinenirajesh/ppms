@@ -1,0 +1,19 @@
+Model Fund{
+	name:'Fund'
+	properties:[
+		name{
+
+		},
+		description{
+
+		},
+		manager{
+			type:#Reference
+			referenceTo:#User
+		},
+		account{
+			type:#Reference
+			referenceTo:#Account
+		}
+	]
+}

@@ -1,0 +1,11 @@
+Model EmailToTicket{
+	name:'Email To Ticket'
+	properties:[
+		email{
+			type:#Email
+		}
+	]
+	//TODO
+	//on save of this EmailToApex Instance and save 
+	//that ApexClass should load this emailToTicket Instance and process based on the settings
+}

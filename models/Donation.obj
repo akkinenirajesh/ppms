@@ -1,0 +1,31 @@
+Model Donation{
+	name:'Donation'
+	properties:[
+		User{
+			type:#Reference
+			referenceTo:#User
+		},
+		email{
+			type:#Email
+		},
+		name{
+
+		},
+		addess{
+
+		},
+		phoneNo{
+
+		},
+		amount{
+
+		},
+		when{
+
+		},
+		fund{
+			type:#Reference
+			referenceTo:#Fund
+		}
+	]
+}

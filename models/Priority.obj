@@ -1,0 +1,4 @@
+Model Priority{
+	name:'Priority'
+	parents:[#Picklist]
+}

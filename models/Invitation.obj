@@ -11,7 +11,7 @@ Model Invitation{
 		},
 		toMember{
 			type:#Reference
-			referenceTo:#Member
+			referenceTo:#User
 		},
 		toEmail{
 			type:#Email

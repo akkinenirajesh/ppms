@@ -1,4 +1,4 @@
-// Represents a party member
+// Represents a party Member
 Model Member {
 	name : 'Member'
 	properties : [
@@ -9,6 +9,19 @@ Model Member {
 			type : #Reference
 			referenceType : #MembershipType
 			required : true
+		},
+		referenceCode{
+			type : #Number
+		},
+		expired{
+			type: #Boolean
+		},
+		validUpto{
+			type: #Date
+		},
+		referedBy{
+			type:#Reference
+			referenceTo:#User
 		}
 	]
 }

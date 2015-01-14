@@ -1,4 +1,13 @@
 Model MembershipType {
 	name : 'MembershipType'
 	parents : [#Picklist]
+	properties:[
+		expires{
+			type : #Boolean
+		},
+		validity{
+			type: #Number
+			description:'Number of years this membership sustanins'
+		}
+	]
 }
