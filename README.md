@@ -20,3 +20,8 @@ Team who is organizing the event can have various roles and participants can be 
 Every attendent can have check in, check out functionality. 
 Events can be classified into various categories.
 Events can have Photos, Videos and minute by minute text updates.(consolidated into minutes)
+
+
+## Contributing
+If you are interested in contributing to this software, please feel free to do so.
+Please send a pull request. If you want to learn Ecgine Syntax then contact info@vimukti.com and we will provide a short training on the Ecgine Platform.
